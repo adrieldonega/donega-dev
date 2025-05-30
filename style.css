@@ -4,9 +4,18 @@
   box-sizing: border-box;
 }
 
+:root {
+  --primary-color: #4a90e2;
+  --text-color-light: #f8f8f8;
+  --text-color-dark: #333;
+  --bg-dark: #242424;
+  --font-lato: "Lato", sans-serif;
+  --font-ubuntu: "Ubuntu Sans", sans-serif;
+}
+
 body {
-  font-family: "Lato", sans-serif;
-  background-color: #242424;
+  font-family: var(--font-lato);
+  background-color: var(--bg-dark);
 }
 
 header {
@@ -93,7 +102,7 @@ header {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #4a90e2;
+  background-color: var(--primary-color);
   transform: scaleX(0);
   transform-origin: right;
   transition: transform 0.4s cubic-bezier(0.65, 0, 0.35, 1);
@@ -111,7 +120,7 @@ header {
   height: 2px;
   bottom: 0;
   right: 0;
-  background-color: #4a90e2;
+  background-color: var(--primary-color);
   transition: width 0.3s ease;
 }
 
@@ -145,7 +154,7 @@ header {
 }
 
 .hero-text h1 {
-  font-family: "Ubuntu Sans", sans-serif;
+  font-family: var(--font-ubuntu);
   font-size: 4.5rem;
   font-weight: 600;
   margin-bottom: 0.5rem;
@@ -194,12 +203,12 @@ header {
   background-color: #f7f7f7;
   padding: 100px 20px;
   text-align: center;
-  color: #333;
-  font-family: "Lato", sans-serif;
+  color: var(--text-color-dark);
+  font-family: var(--font-lato);
 }
 
 #sobre h2 {
-  font-family: "Ubuntu Sans", sans-serif;
+  font-family: var(--font-ubuntu);
   font-size: 2.2rem;
   font-weight: 400;
   margin-bottom: 50px;
@@ -249,7 +258,7 @@ header {
 }
 
 .my-hobbies h3 {
-  font-family: "Ubuntu Sans", sans-serif;
+  font-family: var(--font-ubuntu);
   font-size: 1.1rem;
   font-weight: 500;
   color: #555;
@@ -290,12 +299,12 @@ header {
   background-color: #f7f7f7;
   padding: 100px 20px;
   text-align: center;
-  color: #333;
-  font-family: "Lato", sans-serif;
+  color: var(--text-color-dark);
+  font-family: var(--font-lato);
 }
 
 #tecnologias .section-title {
-  font-family: "Ubuntu Sans", sans-serif;
+  font-family: var(--font-ubuntu);
   font-size: 2.2rem;
   font-weight: 400;
   margin-bottom: 30px;
@@ -334,7 +343,7 @@ header {
 }
 
 .column-title {
-  font-family: "Ubuntu Sans", sans-serif;
+  font-family: var(--font-ubuntu);
   font-size: 1.1rem;
   font-weight: 500;
   color: #555;
@@ -447,7 +456,7 @@ header {
 }
 
 .curriculo-title {
-  font-family: "Ubuntu Sans", sans-serif;
+  font-family: var(--font-ubuntu);
   font-size: 4rem;
   font-weight: 500;
   margin-bottom: 50px;
@@ -475,20 +484,20 @@ header {
 
 .curriculo-button:hover {
   background-color: rgba(255, 255, 255, 0.1);
-  color: #333;
-  border-color: #333;
+  color: var(--text-color-dark);
+  border-color: var(--text-color-dark);
 }
 
 #projetos {
   background-color: #f7f7f7;
   padding: 100px 20px;
   text-align: center;
-  color: #333;
-  font-family: "Lato", sans-serif;
+  color: var(--text-color-dark);
+  font-family: var(--font-lato);
 }
 
 #projetos .section-title {
-  font-family: "Ubuntu", sans-serif;
+  font-family: var(--font-ubuntu);
   font-size: 2.5rem;
   font-weight: 500;
   margin-bottom: 10px;
@@ -498,7 +507,7 @@ header {
 }
 
 #projetos .section-subtitle {
-  font-family: "Lato", sans-serif;
+  font-family: var(--font-lato);
   font-size: 1rem; /* Tamanho ajustado */
   line-height: 1.1;
   color: #777; /* Cor mais suave */
@@ -568,11 +577,11 @@ header {
 }
 
 .projeto-titulo {
-  font-family: "Ubuntu", sans-serif;
+  font-family: var(--font-ubuntu);
   font-size: 1.6rem;
   font-weight: 600;
   margin-bottom: 10px;
-  color: #333;
+  color: var(--text-color-dark);
   text-transform: uppercase;
   letter-spacing: 0.5px;
 }
@@ -610,9 +619,9 @@ header {
 }
 
 .projeto-link-live {
-  background-color: #333;
+  background-color: var(--text-color-dark);
   color: #fff;
-  border: 1px solid #333;
+  border: 1px solid var(--text-color-dark);
 }
 
 .projeto-link-live:hover {
@@ -622,7 +631,7 @@ header {
 
 .projeto-link-github {
   background-color: transparent;
-  color: #333;
+  color: var(--text-color-dark);
   border: 1px solid #ccc;
 }
 
@@ -650,7 +659,7 @@ header {
 }
 
 .section-contact {
-  background-color: #242424;
+  background-color: var(--bg-dark);
   color: #fff;
   padding: 100px 20px;
   text-align: center;
@@ -663,7 +672,7 @@ header {
 }
 
 .section-title {
-  font-family: "Ubuntu Sans", sans-serif;
+  font-family: var(--font-ubuntu);
   font-size: 2.5rem;
   font-weight: 500;
   margin-bottom: 40px;
@@ -686,7 +695,7 @@ header {
   padding: 15px 40px;
   background-color: transparent;
   color: #fff;
-  border: 2px solid #4a90e2;
+  border: 2px solid var(--primary-color);
   border-radius: 50px;
   font-size: 1.1rem;
   font-weight: 500;
@@ -696,7 +705,7 @@ header {
 }
 
 .contact-button:hover {
-  background-color: #4a90e2;
+  background-color: var(--primary-color);
   transform: translateY(-3px);
   box-shadow: 0 10px 20px rgba(74, 144, 226, 0.3);
 }
@@ -732,8 +741,8 @@ header {
 }
 
 .social-icons a:hover {
-  background-color: #4a90e2;
-  border-color: #4a90e2;
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
   transform: translateY(-3px);
 }
 
@@ -750,7 +759,7 @@ header {
 }
 
 footer {
-  background-color: #242424;
+  background-color: var(--bg-dark);
   color: #fff;
   padding: 40px 20px;
   text-align: center;
@@ -832,7 +841,7 @@ footer {
 }
 
 .close-modal:hover {
-  color: #333;
+  color: var(--text-color-dark);
 }
 
 #termsFrame {
@@ -860,7 +869,7 @@ footer {
 
 #acceptTerms {
   padding: 8px 20px;
-  background-color: #4a90e2;
+  background-color: var(--primary-color);
   color: white;
   border: none;
   border-radius: 4px;
@@ -894,7 +903,7 @@ footer {
   border-radius: 8px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   line-height: 1.6;
-  color: #333;
+  color: var(--text-color-dark);
 }
 
 .privacy-header {
@@ -949,7 +958,7 @@ footer {
   display: inline-block;
   margin-top: 30px;
   padding: 10px 20px;
-  background: #4a90e2;
+  background: var(--primary-color);
   color: white;
   text-decoration: none;
   border-radius: 5px;
@@ -971,7 +980,7 @@ footer {
   color: white;
   padding: 15px 20px;
   z-index: 9999;
-  box-shadow: 0 -2px 10px rgba(0,0,0,0.2);
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2);
   transform: translateY(100%);
   transition: transform 0.3s ease;
 }
@@ -997,7 +1006,7 @@ footer {
 }
 
 .cookie-content a {
-  color: #4a90e2;
+  color: var(--primary-color);
   text-decoration: underline;
 }
 
@@ -1017,7 +1026,7 @@ footer {
 }
 
 .cookie-btn.accept {
-  background: #4a90e2;
+  background: var(--primary-color);
   color: white;
 }
 
@@ -1032,12 +1041,12 @@ footer {
 }
 
 .cookie-btn.reject:hover {
-  background: rgba(255,255,255,0.1);
+  background: rgba(255, 255, 255, 0.1);
 }
 
 .cookie-btn.customize {
   background: transparent;
-  color: #4a90e2;
+  color: var(--primary-color);
 }
 
 .cookie-btn.customize:hover {
@@ -1052,7 +1061,7 @@ footer {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0,0,0,0.7);
+  background: rgba(0, 0, 0, 0.7);
   z-index: 10000;
   justify-content: center;
   align-items: center;
@@ -1060,7 +1069,7 @@ footer {
 
 .modal-content {
   background: white;
-  color: #333;
+  color: var(--text-color-dark);
   padding: 30px;
   border-radius: 8px;
   max-width: 600px;
@@ -1108,20 +1117,16 @@ footer {
     flex-direction: column;
     text-align: center;
   }
-  
+
   .cookie-buttons {
     width: 100%;
     justify-content: center;
   }
-  
+
   .modal-content {
     padding: 20px;
   }
 }
-
-
-
-
 
 /* Responsividade */
 @media (max-width: 768px) {
@@ -1130,8 +1135,6 @@ footer {
     padding: 20px;
   }
 }
-
-
 
 /* RESPONSIVIDADE */
 
