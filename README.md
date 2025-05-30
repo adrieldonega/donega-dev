@@ -4,7 +4,7 @@
   <a href="https://adrieldonega.github.io/donega-dev/" target="_blank">
     <img src="https://img.shields.io/badge/Visitar%20Portfólio-4A90E2?style=for-the-badge&logo=&logoColor=white" alt="Visitar Portfólio">
   </a>
-  <a href="https://www.linkedin.com/in/adriel-donega/" target="_blank">
+  <a href="https://www.linkedin.com/in/adrieldonega/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
   </a>
   <a href="https://github.com/adrieldonega" target="_blank">
