@@ -161,17 +161,20 @@ header {
 
 .scroll-down {
   position: absolute;
-  bottom: -200px;
+  bottom: -320px;
   left: 400px;
   margin-top: 150px;
   transform: translateX(-50%);
   font-size: 3.5rem;
-  color: #fff;
-  opacity: 0.2;
+  opacity: 0.1;
   cursor: pointer;
   z-index: 2;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
   animation: bounce 2s infinite ease-in-out;
+}
+.scroll-down a {
+  text-decoration: none;
+  color: #fff;
 }
 
 @keyframes bounce {
