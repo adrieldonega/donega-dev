@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', function () {
         waitUntilVisible: true,
     }).go();
     new TypeIt('#hero-subtitle', {
-        strings: ["Desenvolvedor Fullstack | Desenvolvedor Front End | Software Engineer"],
+        strings: ["Desenvolvedor Fullstack"],
         speed: 100,
         breakLines: false,
         loop: false,
@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', function () {
 })
 
 
-// Adiciona efeito de digitação no texto de contato (opcional)
+// Efeito de digitação no texto de contato
 if (document.querySelector('.contact-text')) {
     new TypeIt('.contact-text', {
         strings: [
@@ -118,7 +118,7 @@ window.addEventListener('click', function (event) {
     }
 });
 
-// Link para abrir termos novamente (adicione isso onde quiser no seu site)
+// Link para abrir termos novamente
 document.getElementById('openTermsLink').addEventListener('click', function (e) {
     e.preventDefault();
     termsModal.style.display = 'block';
