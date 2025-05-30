@@ -1,7 +1,7 @@
 # Adriel Donegá | Desenvolvedor Web
 
 <p align="center">
-  <a href="https://adrieldonega.github.io/portfolio/" target="_blank">
+  <a href="https://adrieldonega.github.io/donega-dev/" target="_blank">
     <img src="https://img.shields.io/badge/Visitar%20Portfólio-4A90E2?style=for-the-badge&logo=&logoColor=white" alt="Visitar Portfólio">
   </a>
   <a href="https://www.linkedin.com/in/adriel-donega/" target="_blank">
@@ -93,6 +93,7 @@ Estou sempre aberto a novas oportunidades e colaborações. Sinta-se à vontade 
 
 * **LinkedIn:** [Adriel Donegá](https://www.linkedin.com/in/adriel-donega/)
 * **GitHub:** [adrieldonega](https://github.com/adrieldonega)
+* **Whatsapp: ** [Whatsapp](https://wa.me/5511961212420)
 * **E-mail:** adrieldonega@live.com
 
 ---
