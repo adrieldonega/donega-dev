@@ -93,7 +93,7 @@ Estou sempre aberto a novas oportunidades e colaborações. Sinta-se à vontade 
 
 * **LinkedIn:** [Adriel Donegá](https://www.linkedin.com/in/adriel-donega/)
 * **GitHub:** [adrieldonega](https://github.com/adrieldonega)
-* **Whatsapp: ** [Whatsapp](https://wa.me/5511961212420)
+* **Whatsapp:** 11-96121-2420
 * **E-mail:** adrieldonega@live.com
 
 ---
